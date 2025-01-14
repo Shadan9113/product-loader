@@ -1,0 +1,5 @@
+first fetch data from api-:useeffect -:async await -:try catch finally
+store it on usestate
+loader or error
+map data-:0 to 5, or 0 to 10 
+load more button
