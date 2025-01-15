@@ -1,6 +1,7 @@
 import React from "react";
 import ProductLoader from "./Component/ProductLoader"; // Handles product loading
 import QrCode from "./Component/QrCodeGenerator/QrCode"; // Generates QR codes
+import CustomTabs from './Component/CustomTabs/CustomTabs';
 
 const App = () => {
   return (
@@ -15,6 +16,11 @@ const App = () => {
       <section>
         <h2>QR Code Generator</h2>
         <QrCode />
+      </section>
+
+      {/* Custom Tabs */}
+      <section>
+        <CustomTabs />
       </section>
     </div>
   );
